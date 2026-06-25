@@ -18,3 +18,8 @@ The system is divided into 7 core modules:
 5. **Grades Module (M5):** Enter marks, apply best "Three of Five" logic manually, compute weighted totals, GPA, and apply attendance penalties.
 6. **Fee Tracker (M6):** Record payments, calculate late fines based on manual date arithmetic (2% per complete week), and generate formatted receipts.
 7. **Reports Dashboard (M7):** Generate formatted console and text-file reports including Merit Lists, Defaulter Lists, and Department Summaries.
+
+ **Compile the code:**
+   Open your terminal/command prompt, navigate to the project directory, and run the following command to link and compile all source files:
+   ```bash
+   g++ main.cpp filehandler.cpp student_ops.cpp course_ops.cpp attendance.cpp grades.cpp fee_tracker.cpp reports.cpp -o CampusAnalytics
